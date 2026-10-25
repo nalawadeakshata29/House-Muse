@@ -1,0 +1,20 @@
+@"
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+node_modules/
+dist/
+build/
+*.sqlite3
+media/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.bin
+house-muse/ml/models/
+"@ | Set-Content .gitignore

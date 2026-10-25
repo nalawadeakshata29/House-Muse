@@ -1,0 +1,10 @@
+Style,Display Name,Origin,Compared Against Input,Canny Edge SSIM,Depth Pearson Corr,CLIP Similarity,CLIP Predicted Style,Top-1 Match,YOLOv8m In Dets,YOLOv8m Out Dets,YOLO-World In Dets,YOLO-World Out Dets
+contemporary_indian,Contemporary Indian,ml/test_outputs,test.jpg,0.3413,0.7783,0.3589,contemporary_indian,True,10,10,10,9
+industrial,Industrial,ml/test_outputs,test.jpg,0.2962,0.782,0.2901,industrial,True,10,8,10,7
+mid_century,Mid-Century Modern,ml/test_outputs,test.jpg,0.3934,0.6553,0.3229,mid_century,True,10,8,10,9
+victorian,Victorian,backend/projects/gen_2,room.jpg,0.5551,0.9434,0.2547,contemporary_indian,False,0,7,0,9
+scandinavian,Scandinavian,backend/projects/gen_3,room1.jpg,0.6213,0.721,0.244,contemporary_indian,False,0,7,0,5
+vintage_indian,Vintage Indian,backend/projects/gen_4,room_2.webp,0.4134,0.9461,0.3066,contemporary_indian,False,16,18,16,14
+shabby_chic_style,Shabby Chic,backend/projects/gen_5,room_2_qCfddJR.webp,0.415,0.726,0.2957,shabby_chic_style,True,16,17,16,11
+eclectic,Eclectic,backend/projects/gen_6,room_2_RhLDUMC.webp,0.4402,0.9198,0.2868,eclectic,True,16,14,16,14
+coastal,Coastal,backend/projects/gen_14,room_2_1pt4VK0.webp,0.4711,0.8628,0.2904,coastal,True,16,13,16,14

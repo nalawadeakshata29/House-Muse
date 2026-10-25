@@ -1,0 +1,426 @@
+{
+  "sample_size": 9,
+  "evaluated_styles": [
+    "contemporary_indian",
+    "industrial",
+    "mid_century",
+    "victorian",
+    "scandinavian",
+    "vintage_indian",
+    "shabby_chic_style",
+    "eclectic",
+    "coastal"
+  ],
+  "overall_metrics": {
+    "mean_canny_edge_ssim": 0.4386,
+    "mean_depth_pearson_correlation": 0.815,
+    "mean_clip_target_similarity": 0.2945,
+    "clip_zero_shot_top1_accuracy": 0.6667
+  },
+  "style_evaluations": [
+    {
+      "style": "contemporary_indian",
+      "display_name": "Contemporary Indian",
+      "origin": "ml/test_outputs",
+      "input_source": "test.jpg",
+      "output_source": "test_output_contemporary_indian.jpg",
+      "canny_edge_ssim": 0.3413,
+      "depth_pearson_corr": 0.7783,
+      "clip_target_similarity": 0.3589,
+      "clip_predicted_style": "contemporary_indian",
+      "clip_top1_match": true,
+      "clip_all_similarities": {
+        "contemporary_indian": 0.3589,
+        "industrial": 0.2457,
+        "mid_century": 0.2697,
+        "victorian": 0.2427,
+        "scandinavian": 0.2261,
+        "vintage_indian": 0.3271,
+        "shabby_chic_style": 0.2487,
+        "eclectic": 0.2792,
+        "coastal": 0.2875
+      },
+      "coco_detections_in_count": 10,
+      "coco_detections_out_count": 10,
+      "world_detections_in_count": 10,
+      "world_detections_out_count": 9
+    },
+    {
+      "style": "industrial",
+      "display_name": "Industrial",
+      "origin": "ml/test_outputs",
+      "input_source": "test.jpg",
+      "output_source": "test_output_industrial.jpg",
+      "canny_edge_ssim": 0.2962,
+      "depth_pearson_corr": 0.782,
+      "clip_target_similarity": 0.2901,
+      "clip_predicted_style": "industrial",
+      "clip_top1_match": true,
+      "clip_all_similarities": {
+        "contemporary_indian": 0.2331,
+        "industrial": 0.2901,
+        "mid_century": 0.2225,
+        "victorian": 0.2216,
+        "scandinavian": 0.234,
+        "vintage_indian": 0.2204,
+        "shabby_chic_style": 0.2265,
+        "eclectic": 0.2496,
+        "coastal": 0.2307
+      },
+      "coco_detections_in_count": 10,
+      "coco_detections_out_count": 8,
+      "world_detections_in_count": 10,
+      "world_detections_out_count": 7
+    },
+    {
+      "style": "mid_century",
+      "display_name": "Mid-Century Modern",
+      "origin": "ml/test_outputs",
+      "input_source": "test.jpg",
+      "output_source": "test_output_mid_century.jpg",
+      "canny_edge_ssim": 0.3934,
+      "depth_pearson_corr": 0.6553,
+      "clip_target_similarity": 0.3229,
+      "clip_predicted_style": "mid_century",
+      "clip_top1_match": true,
+      "clip_all_similarities": {
+        "contemporary_indian": 0.2938,
+        "industrial": 0.2503,
+        "mid_century": 0.3229,
+        "victorian": 0.1972,
+        "scandinavian": 0.2414,
+        "vintage_indian": 0.2568,
+        "shabby_chic_style": 0.2169,
+        "eclectic": 0.2741,
+        "coastal": 0.2617
+      },
+      "coco_detections_in_count": 10,
+      "coco_detections_out_count": 8,
+      "world_detections_in_count": 10,
+      "world_detections_out_count": 9
+    },
+    {
+      "style": "victorian",
+      "display_name": "Victorian",
+      "origin": "backend/projects/gen_2",
+      "input_source": "room.jpg",
+      "output_source": "gen_2_1791657524.jpg",
+      "canny_edge_ssim": 0.5551,
+      "depth_pearson_corr": 0.9434,
+      "clip_target_similarity": 0.2547,
+      "clip_predicted_style": "contemporary_indian",
+      "clip_top1_match": false,
+      "clip_all_similarities": {
+        "contemporary_indian": 0.2693,
+        "industrial": 0.2259,
+        "mid_century": 0.2377,
+        "victorian": 0.2547,
+        "scandinavian": 0.2246,
+        "vintage_indian": 0.2547,
+        "shabby_chic_style": 0.2479,
+        "eclectic": 0.258,
+        "coastal": 0.2563
+      },
+      "coco_detections_in_count": 0,
+      "coco_detections_out_count": 7,
+      "world_detections_in_count": 0,
+      "world_detections_out_count": 9
+    },
+    {
+      "style": "scandinavian",
+      "display_name": "Scandinavian",
+      "origin": "backend/projects/gen_3",
+      "input_source": "room1.jpg",
+      "output_source": "gen_3_1791658544.jpg",
+      "canny_edge_ssim": 0.6213,
+      "depth_pearson_corr": 0.721,
+      "clip_target_similarity": 0.244,
+      "clip_predicted_style": "contemporary_indian",
+      "clip_top1_match": false,
+      "clip_all_similarities": {
+        "contemporary_indian": 0.2817,
+        "industrial": 0.2315,
+        "mid_century": 0.2811,
+        "victorian": 0.2284,
+        "scandinavian": 0.244,
+        "vintage_indian": 0.2547,
+        "shabby_chic_style": 0.236,
+        "eclectic": 0.2552,
+        "coastal": 0.2688
+      },
+      "coco_detections_in_count": 0,
+      "coco_detections_out_count": 7,
+      "world_detections_in_count": 0,
+      "world_detections_out_count": 5
+    },
+    {
+      "style": "vintage_indian",
+      "display_name": "Vintage Indian",
+      "origin": "backend/projects/gen_4",
+      "input_source": "room_2.webp",
+      "output_source": "gen_4_1791658670.jpg",
+      "canny_edge_ssim": 0.4134,
+      "depth_pearson_corr": 0.9461,
+      "clip_target_similarity": 0.3066,
+      "clip_predicted_style": "contemporary_indian",
+      "clip_top1_match": false,
+      "clip_all_similarities": {
+        "contemporary_indian": 0.3082,
+        "industrial": 0.2363,
+        "mid_century": 0.248,
+        "victorian": 0.2788,
+        "scandinavian": 0.2346,
+        "vintage_indian": 0.3066,
+        "shabby_chic_style": 0.2613,
+        "eclectic": 0.2852,
+        "coastal": 0.263
+      },
+      "coco_detections_in_count": 16,
+      "coco_detections_out_count": 18,
+      "world_detections_in_count": 16,
+      "world_detections_out_count": 14
+    },
+    {
+      "style": "shabby_chic_style",
+      "display_name": "Shabby Chic",
+      "origin": "backend/projects/gen_5",
+      "input_source": "room_2_qCfddJR.webp",
+      "output_source": "gen_5_1791658779.jpg",
+      "canny_edge_ssim": 0.415,
+      "depth_pearson_corr": 0.726,
+      "clip_target_similarity": 0.2957,
+      "clip_predicted_style": "shabby_chic_style",
+      "clip_top1_match": true,
+      "clip_all_similarities": {
+        "contemporary_indian": 0.2626,
+        "industrial": 0.2427,
+        "mid_century": 0.2446,
+        "victorian": 0.2641,
+        "scandinavian": 0.2517,
+        "vintage_indian": 0.2641,
+        "shabby_chic_style": 0.2957,
+        "eclectic": 0.2864,
+        "coastal": 0.2712
+      },
+      "coco_detections_in_count": 16,
+      "coco_detections_out_count": 17,
+      "world_detections_in_count": 16,
+      "world_detections_out_count": 11
+    },
+    {
+      "style": "eclectic",
+      "display_name": "Eclectic",
+      "origin": "backend/projects/gen_6",
+      "input_source": "room_2_RhLDUMC.webp",
+      "output_source": "gen_6_1791658974.jpg",
+      "canny_edge_ssim": 0.4402,
+      "depth_pearson_corr": 0.9198,
+      "clip_target_similarity": 0.2868,
+      "clip_predicted_style": "eclectic",
+      "clip_top1_match": true,
+      "clip_all_similarities": {
+        "contemporary_indian": 0.2776,
+        "industrial": 0.2459,
+        "mid_century": 0.2702,
+        "victorian": 0.2571,
+        "scandinavian": 0.2435,
+        "vintage_indian": 0.2761,
+        "shabby_chic_style": 0.2581,
+        "eclectic": 0.2868,
+        "coastal": 0.2696
+      },
+      "coco_detections_in_count": 16,
+      "coco_detections_out_count": 14,
+      "world_detections_in_count": 16,
+      "world_detections_out_count": 14
+    },
+    {
+      "style": "coastal",
+      "display_name": "Coastal",
+      "origin": "backend/projects/gen_14",
+      "input_source": "room_2_1pt4VK0.webp",
+      "output_source": "gen_14_1792607326.jpg",
+      "canny_edge_ssim": 0.4711,
+      "depth_pearson_corr": 0.8628,
+      "clip_target_similarity": 0.2904,
+      "clip_predicted_style": "coastal",
+      "clip_top1_match": true,
+      "clip_all_similarities": {
+        "contemporary_indian": 0.2715,
+        "industrial": 0.2455,
+        "mid_century": 0.2663,
+        "victorian": 0.2447,
+        "scandinavian": 0.2482,
+        "vintage_indian": 0.2468,
+        "shabby_chic_style": 0.2719,
+        "eclectic": 0.2784,
+        "coastal": 0.2904
+      },
+      "coco_detections_in_count": 16,
+      "coco_detections_out_count": 13,
+      "world_detections_in_count": 16,
+      "world_detections_out_count": 14
+    }
+  ],
+  "detection_analysis": {
+    "note": "no ground truth: detections and confidence, not accuracy",
+    "yolov8m_coco": {
+      "input_photos": {
+        "chair": {
+          "count": 19,
+          "mean_confidence": 0.7271
+        },
+        "couch": {
+          "count": 6,
+          "mean_confidence": 0.5781
+        },
+        "dining table": {
+          "count": 4,
+          "mean_confidence": 0.6626
+        },
+        "potted plant": {
+          "count": 58,
+          "mean_confidence": 0.52
+        },
+        "tv": {
+          "count": 7,
+          "mean_confidence": 0.6197
+        }
+      },
+      "generated_outputs": {
+        "bench": {
+          "count": 1,
+          "mean_confidence": 0.3787
+        },
+        "book": {
+          "count": 1,
+          "mean_confidence": 0.7012
+        },
+        "bowl": {
+          "count": 7,
+          "mean_confidence": 0.4647
+        },
+        "chair": {
+          "count": 15,
+          "mean_confidence": 0.7537
+        },
+        "couch": {
+          "count": 7,
+          "mean_confidence": 0.7196
+        },
+        "dining table": {
+          "count": 6,
+          "mean_confidence": 0.3948
+        },
+        "dog": {
+          "count": 1,
+          "mean_confidence": 0.2775
+        },
+        "oven": {
+          "count": 1,
+          "mean_confidence": 0.3301
+        },
+        "potted plant": {
+          "count": 37,
+          "mean_confidence": 0.6587
+        },
+        "tv": {
+          "count": 3,
+          "mean_confidence": 0.6456
+        },
+        "vase": {
+          "count": 23,
+          "mean_confidence": 0.4811
+        }
+      }
+    },
+    "yolov8s_worldv2": {
+      "input_photos": {
+        "bookshelf": {
+          "count": 7,
+          "mean_confidence": 0.3913
+        },
+        "chair": {
+          "count": 20,
+          "mean_confidence": 0.5537
+        },
+        "couch": {
+          "count": 6,
+          "mean_confidence": 0.5615
+        },
+        "dining table": {
+          "count": 4,
+          "mean_confidence": 0.754
+        },
+        "lamp": {
+          "count": 14,
+          "mean_confidence": 0.6129
+        },
+        "potted plant": {
+          "count": 40,
+          "mean_confidence": 0.4963
+        },
+        "tv": {
+          "count": 3,
+          "mean_confidence": 0.914
+        }
+      },
+      "generated_outputs": {
+        "bookshelf": {
+          "count": 5,
+          "mean_confidence": 0.496
+        },
+        "chair": {
+          "count": 15,
+          "mean_confidence": 0.7138
+        },
+        "couch": {
+          "count": 7,
+          "mean_confidence": 0.5289
+        },
+        "dining table": {
+          "count": 4,
+          "mean_confidence": 0.6335
+        },
+        "lamp": {
+          "count": 25,
+          "mean_confidence": 0.5788
+        },
+        "potted plant": {
+          "count": 32,
+          "mean_confidence": 0.6431
+        },
+        "tv": {
+          "count": 2,
+          "mean_confidence": 0.3648
+        },
+        "window": {
+          "count": 2,
+          "mean_confidence": 0.4669
+        }
+      }
+    }
+  },
+  "metrics_not_computed": {
+    "custom_best_pt_detector": {
+      "status": "not computed",
+      "reason": "Weights file models/checkpoints/house_muse_yolo/weights/best.pt not found on disk"
+    },
+    "sam_segmentation": {
+      "status": "not computed",
+      "reason": "segment-anything package and sam_vit_b_01ec64.pth checkpoint not installed locally"
+    },
+    "blip_captioning": {
+      "status": "not computed",
+      "reason": "Remote Salesforce/blip-image-captioning-large API call prohibited to ensure zero GPU quota and zero external API dependencies"
+    },
+    "lora_training_loss": {
+      "status": "not computed",
+      "reason": "LoRA training logs (trainer_state.json, tensorboard events) not found in repo; ask the teammate who trained them"
+    },
+    "labelled_detection_ground_truth": {
+      "status": "not computed",
+      "reason": "No ground truth bounding box dataset found; evaluated via detection counts and confidence rather than precision/recall/mAP"
+    }
+  }
+}
